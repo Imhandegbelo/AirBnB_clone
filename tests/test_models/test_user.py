@@ -6,6 +6,7 @@ Test suits for users
 import unittest
 from models.base_model import BaseModel
 
+
 class TestUser(unittest.TestCase):
     """
     """
@@ -14,6 +15,7 @@ class TestUser(unittest.TestCase):
         """
         """
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

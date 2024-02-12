@@ -49,7 +49,8 @@ class TestBaseModel(unittest.TestCase):
         my_model = BaseModel()
         my_model.name = "ALX"
         my_model.number = 89
-        self.assertEqual([my_model.name, my_model.number], 
+        self.assertEqual(
+                [my_model.name, my_model.number],
                 ["ALX", 89])
 
     def test_to_dict(self):
@@ -61,8 +62,14 @@ class TestBaseModel(unittest.TestCase):
         self.assertIsInstance(my_model_dict, dict)
         self.assertEqual(my_model_dict["__class__"], 'BaseModel')
         self.assertEqual(my_model_dict["id"], my_model.id)
-        self.assertEqual(my_model_dict["created_at"], my_model.created_at.isoformat())
-        self.assertEqual(my_model_dict["updated_at"], my_model.updated_at.isoformat())
+        self.assertEqual(
+                my_model_dict["created_at"],
+                my_model.created_at.isoformat()
+                )
+        self.assertEqual(
+                my_model_dict["updated_at"],
+                my_model.updated_at.isoformat()
+                )
 
     def test_str(self):
         """

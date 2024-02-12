@@ -6,6 +6,7 @@ Test suits for reviews
 import unittest
 from models.base_model import BaseModel
 
+
 class TestReview(unittest.TestCase):
     """
     Tests Review
@@ -15,6 +16,7 @@ class TestReview(unittest.TestCase):
         """
         """
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

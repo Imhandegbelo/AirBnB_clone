@@ -6,6 +6,7 @@ Test suits for state
 import unittest
 from models.base_model import BaseModel
 
+
 class TestState(unittest.TestCase):
     """
     Tests State
@@ -15,6 +16,7 @@ class TestState(unittest.TestCase):
         """
         """
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

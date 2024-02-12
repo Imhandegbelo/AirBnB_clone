@@ -6,6 +6,7 @@ Test suits for cities
 import unittest
 from models.base_model import BaseModel
 
+
 class TestCity(unittest.TestCase):
     """
     Tests City
@@ -15,6 +16,7 @@ class TestCity(unittest.TestCase):
         """
         """
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

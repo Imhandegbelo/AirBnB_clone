@@ -6,6 +6,7 @@ Test suits for users
 import unittest
 from models.base_model import BaseModel
 
+
 class TestAmenity(unittest.TestCase):
     """
     Test suits for amenities
@@ -15,6 +16,7 @@ class TestAmenity(unittest.TestCase):
         """
         """
         pass
+
 
 if __name__ == '__main__':
     unittest.main()
